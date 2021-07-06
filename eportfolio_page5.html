@@ -1,0 +1,96 @@
+﻿<html>
+<head>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <nav style=" padding:20px; position:fixed; width:100%; background-color: salmon; z-index: 9999;">
+        <a href="index.html" style=" color: ghostwhite;  padding-left: 50px; float:left; text-decoration: none;">About Me</a></>
+        <a href="eportfolio_page2.html" style=" color: ghostwhite;  padding-left: 50px; float:left; text-decoration: none;">Experience</a>
+        <a href="eportfolio_page3.html" style=" color: ghostwhite;  padding-left: 50px; float:left; text-decoration: none;">Skincare</a>
+        <a href="eportfolio_page4.html" style=" color: ghostwhite;  padding-left: 50px; float:left; text-decoration: none;">Inspiration</a>
+        <a href="eportfolio_page5.html" style=" color: ghostwhite;  padding-left: 50px; float:left; text-decoration: none;">Feedback</a>
+    </nav>
+    <div style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+        <h1><br /><br />Feedback</h1>
+        <form>
+            <h2>Information</h2>
+            <table style="border-spacing: 10px; ">
+                <tr>
+                    <td><label for="name">Full Name </label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email Address</label>
+                    </td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pnum">Phone Number</label>
+                    </td>
+                    <td>
+                        <input type="text" id="pnum" name="pnum" />
+                    </td>
+                </tr>
+            </table>
+            <table style="border-spacing: 10px; ">
+                <tr>
+                    <td>
+                        <br /><br /><br />
+                        <h2>Feedback Type</h2>
+                        <input type="radio" id="comments" name="feedback" value="comments">
+                        <label for="comments">Comments</label>
+                        <input type="radio" id="suggestion" name="feedback" value="suggestion">
+                        <label for="suggestion">Suggestion</label>
+                        <input type="radio" id="question" name="feedback" value="question">
+                        <label for="question">Question</label>
+                    </td>
+                </tr>
+            </table>
+            <table style="border-spacing: 10px; ">
+                <tr>
+                    <td>
+                        <h3>Input your feedback here !</h3>
+                        <textarea name="message" rows="10" cols="30"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <table style="border-spacing: 10px; ">
+                <tr>
+                    <td>
+                        <h3> Attach file :</h3>
+                        <label for="myfile">Select a file:</label>
+                        <input type="file" id="myfile" name="myfile">
+                    </td>
+                    <td>
+                        <label for="vol">Rate Your Experience (between 1 and 10):</label>
+                        <input type="range" id="vol" name="vol" min="1" max="10">
+                    </td>
+                </tr>
+            </table>
+            <table style="border-spacing: 10px; ">
+                <tr>
+                    <td>
+                        <label for="homepage">Add your homepage:</label>
+                        <input type="url" id="homepage" name="homepage">
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+    </div>
+
+    <footer style="width: 100%; height:100px; background-color:salmon; color:ghostwhite;">
+        <div style="max-width: 80% ;margin: auto; padding: 10px; text-align: center; text-justify: inter-word;">
+            <a style="color:ghostwhite" href="eportfolio_page5.html"> Back To Top </a>
+            <p>© 2020 by Sofiya The First. Educational Reason only.</p>
+        </div>
+    </footer>
+</body>
+</html>
